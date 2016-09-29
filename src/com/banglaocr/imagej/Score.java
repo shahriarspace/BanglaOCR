@@ -13,10 +13,12 @@ public class Score {
 		ImagePlus imagePlus = IJ.openImage(input);
 		IJ.run(imagePlus, "Convert to Mask", "");
 		ImageProcessor imageProcessor = imagePlus.getProcessor();
+		// imagePlus.show();
 
 		ImagePlus imagePlus2 = IJ.openImage("test" + File.separator + train);
 		IJ.run(imagePlus2, "Convert to Mask", "");
 		ImageProcessor imageProcessor2 = imagePlus2.getProcessor();
+		// imagePlus2.show();
 
 		for (int i = 0; i < imageProcessor.getHeight(); i++) {
 			for (int j = 0; j < imageProcessor.getWidth(); j++) {
