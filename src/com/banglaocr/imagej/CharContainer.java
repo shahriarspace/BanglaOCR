@@ -3,13 +3,9 @@ package com.banglaocr.imagej;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
-import java.net.URL;
 import java.util.Scanner;
 
 import org.apache.commons.io.FilenameUtils;
-
-import com.sun.jndi.toolkit.url.Uri;
-import com.sun.org.apache.xerces.internal.util.URI;
 
 public class CharContainer {
 

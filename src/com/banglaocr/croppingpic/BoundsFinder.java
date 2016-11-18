@@ -1,6 +1,5 @@
 package com.banglaocr.croppingpic;
 
-import ij.IJ;
 import ij.process.ImageProcessor;
 
 public class BoundsFinder {

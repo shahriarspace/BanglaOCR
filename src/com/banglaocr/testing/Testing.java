@@ -1,7 +1,5 @@
 package com.banglaocr.testing;
 
-import ij.ImagePlus;
-
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -14,13 +12,13 @@ import javax.swing.ImageIcon;
 import org.apache.commons.io.FileUtils;
 
 import com.banglaocr.croppingpic.SaveCroppedImage;
-import com.banglaocr.dto.Bean;
 import com.banglaocr.dto.TranningBean;
 import com.banglaocr.imagej.CharContainer;
 import com.banglaocr.imagej.WholeChecker;
 import com.banglaocr.ocr.ScanResult;
 import com.banglaocr.traning.ImageAdder;
-import com.sun.org.apache.bcel.internal.generic.NEW;
+
+import ij.ImagePlus;
 
 public class Testing extends ImageAdder {
 

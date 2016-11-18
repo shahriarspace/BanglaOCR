@@ -1,16 +1,11 @@
 package com.banglaocr.traning;
 
-import ij.process.ImageProcessor;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
-
-import net.sourceforge.javaocr.ocrPlugins.CharacterExtractor;
-import net.sourceforge.javaocr.ocrPlugins.LineExtractor;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
@@ -21,6 +16,10 @@ import com.banglaocr.dto.TranningBean;
 import com.banglaocr.imagej.WholeChecker;
 import com.banglaocr.ocr.ScannerOcr;
 import com.banglaocr.renamer.Renamer;
+
+import ij.process.ImageProcessor;
+import net.sourceforge.javaocr.ocrPlugins.charExtractor.CharacterExtractor;
+import net.sourceforge.javaocr.ocrPlugins.lineExtractor.LineExtractor;
 
 /**
  * @author Shahriar Robbani and Aklima Zaman
